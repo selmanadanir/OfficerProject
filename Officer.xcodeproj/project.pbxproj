@@ -16,6 +16,8 @@
 		B375692D2876D3AD00CA3399 /* OfficerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B375692C2876D3AD00CA3399 /* OfficerTests.swift */; };
 		B37569372876D3AD00CA3399 /* OfficerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37569362876D3AD00CA3399 /* OfficerUITests.swift */; };
 		B37569392876D3AD00CA3399 /* OfficerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37569382876D3AD00CA3399 /* OfficerUITestsLaunchTests.swift */; };
+		B38F30DF2893B66D00A3C911 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38F30DE2893B66D00A3C911 /* LoginViewController.swift */; };
+		B38F30E12893B68800A3C911 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38F30E02893B68800A3C911 /* SignUpViewController.swift */; };
 		B3E3476528919D33009D7C7E /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E3476428919D33009D7C7E /* CustomTextField.swift */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +54,8 @@
 		B37569382876D3AD00CA3399 /* OfficerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfficerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B37569462876D47A00CA3399 /* Development.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Development.xcconfig; sourceTree = "<group>"; };
 		B37569472876D49A00CA3399 /* Production.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Production.xcconfig; sourceTree = "<group>"; };
+		B38F30DE2893B66D00A3C911 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B38F30E02893B68800A3C911 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		B3E3476428919D33009D7C7E /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,6 +116,8 @@
 				B37569202876D3AC00CA3399 /* LaunchScreen.storyboard */,
 				B37569232876D3AC00CA3399 /* Info.plist */,
 				B3E3476428919D33009D7C7E /* CustomTextField.swift */,
+				B38F30DE2893B66D00A3C911 /* LoginViewController.swift */,
+				B38F30E02893B68800A3C911 /* SignUpViewController.swift */,
 			);
 			path = Officer;
 			sourceTree = "<group>";
@@ -273,9 +279,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B38F30E12893B68800A3C911 /* SignUpViewController.swift in Sources */,
 				B3E3476528919D33009D7C7E /* CustomTextField.swift in Sources */,
 				B375691A2876D3AA00CA3399 /* ViewController.swift in Sources */,
 				B37569162876D3AA00CA3399 /* AppDelegate.swift in Sources */,
+				B38F30DF2893B66D00A3C911 /* LoginViewController.swift in Sources */,
 				B37569182876D3AA00CA3399 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
