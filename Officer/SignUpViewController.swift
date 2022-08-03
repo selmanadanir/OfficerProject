@@ -9,19 +9,24 @@ import UIKit
 
 class SignUpViewController: UIViewController {
 
-    
-    @IBOutlet weak var signupNameTextField: CustomTextField!
-    @IBOutlet weak var signupSurnameTextField: CustomTextField!
-    @IBOutlet weak var signupEmailTextField: CustomTextField!
-    @IBOutlet weak var signupPasswordTextField: CustomTextField!
-    @IBOutlet weak var signupPasswordAgainTextField: CustomTextField!
+    @IBOutlet weak var signupNameTextField: UITextField!
+    @IBOutlet weak var signupSurnameTextField: UITextField!
+    @IBOutlet weak var signupEmailTextField: UITextField!
+    @IBOutlet weak var signupPasswordTextField: UITextField!
+    @IBOutlet weak var signupPasswordAgainTextField: UITextField!
     @IBOutlet weak var signupButton: UIButton!
+    
+    
+    
+    
     
     
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        signupButton.layer.cornerRadius = 10
 
     }
     

@@ -18,7 +18,7 @@ class CustomTextField: UITextField {
     func customTextField() {
         let underlineView = UIView()
         underlineView.translatesAutoresizingMaskIntoConstraints = false
-        underlineView.backgroundColor = .systemGray
+        underlineView.backgroundColor = UIColor(named: "TextFieldBottomLine")
         addSubview(underlineView)
         
         NSLayoutConstraint.activate([

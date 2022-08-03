@@ -8,16 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    @IBOutlet weak var loginEmailLabel: CustomTextField!
-    
-    @IBOutlet weak var loginPasswordLabel: CustomTextField!
-    
-    @IBOutlet weak var loginButton: UIButton!
-    
-    
-    
-    
+        
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -28,21 +19,4 @@ class ViewController: UIViewController {
             // hide
         }
     }
-
-    
-    @IBAction func clickedLoginButton(_ sender: Any) {
-    }
-    
-    @IBAction func clickedLoginGoogle(_ sender: Any) {
-    }
-    
-    @IBAction func clickedLoginFacebook(_ sender: Any) {
-    }
-    
-    @IBAction func clickedLoginTwitter(_ sender: Any) {
-    }
-    @IBAction func clickedNextSignUp(_ sender: Any) {
-    }
-    
-
 }
